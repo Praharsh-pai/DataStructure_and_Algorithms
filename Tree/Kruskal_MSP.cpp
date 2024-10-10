@@ -64,7 +64,7 @@ void kruskalMST(Edge edges[], int n, int e) {
     }
     cout<<"Edges in MST:\n";
     for(int i=0;i<mstSize;i++){
-        cout<<mst[i].u<<" -- "<<mst[i].v<<" == "<<mst[i].weight<<endl;
+        cout<<mst[i].u<<" -- "<<mst[i].v<<" weighted "<<mst[i].weight<<endl;
     }
     cout << "Total weight of MST: " << mstWeight << endl;
 }
